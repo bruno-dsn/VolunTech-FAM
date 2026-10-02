@@ -51,4 +51,8 @@ next-env.d.ts
 
 # instaladores e builds locais
 /release/
-/.voluntech-runtime/
+
+# resíduos de editor e de compactação
+*.save
+__MACOSX/
+*.tsbuildinfo

@@ -93,7 +93,7 @@ O Electron inicia um processo de servidor interno separado. O estado gravável d
 ## Publicar os instaladores (para quem mantém o repositório)
 
 1. Faça commit/push do projeto no GitHub.
-2. Crie uma tag de versão: `git tag v1.0.0 && git push origin v1.0.0`.
+2. Crie uma tag de versão: `git tag v1.0.2 && git push origin v1.0.2`.
 3. O GitHub Actions (aba **Actions**) gera o `.exe` (Windows) e os `.dmg` (Mac arm64 e Intel) e publica tudo em **Releases**.
    - Alternativa sem tag: **Actions → Build desktop installers → Run workflow**; os arquivos ficam como *artifacts* da execução.
 
@@ -104,6 +104,7 @@ Detalhes em `LEIA-ME-WINDOWS.txt` e `LEIA-ME-MAC.txt`.
 ## Para desenvolvedores
 
 - `pnpm install` e depois `pnpm electron` abre o app em modo desenvolvimento.
+- `pnpm dev` sobe só o servidor web (porta `5173`) pelo mesmo `scripts/electron-server.mjs` do aplicativo, então os QR Codes já usam o endereço da rede. Confira em `http://localhost:5173/api/network`: deve aparecer o IP do computador, não `null`.
 - `pnpm dist:win` / `pnpm dist:mac` geram os instaladores localmente (cada um no seu sistema operacional).
 - Login de demonstração: qualquer nome com 2+ letras e a senha `VolunTech2026!`.
 - Logs do app instalado: pasta de dados do usuário, `VolunTech/runtime/app.log`.

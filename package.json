@@ -1,6 +1,6 @@
 {
   "name": "voluntech-fam",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "VolunTech: sistema acadêmico de gestão de voluntariado (projeto FAM).",
   "author": "Equipe VolunTech · FAM",
   "private": true,
@@ -9,7 +9,7 @@
     "node": ">=22.13.0"
   },
   "scripts": {
-    "dev": "node scripts/run-framework.mjs dev",
+    "dev": "node scripts/electron-server.mjs dev",
     "build": "node scripts/run-framework.mjs build",
     "start": "node --import ./scripts/sites-env.mjs ./node_modules/wrangler/bin/wrangler.js dev --config dist/server/wrangler.json --local --persist-to .wrangler/state --ip 127.0.0.1 --inspector-port 0",
     "electron": "electron .",

@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.2
+
+- Corrigido o QR Code vazio (placeholder "Sem rede") ao iniciar com `pnpm dev`: o script `dev` rodava `scripts/run-framework.mjs` direto e pulava `scripts/electron-server.mjs`, que detecta o IP da rede e o informa ao app. Agora `pnpm dev` executa `node scripts/electron-server.mjs dev`, e `/api/network` devolve o endereço da rede (por exemplo `{"base":"http://192.168.0.10:5173"}`) em vez de `{"base":null}`. O app instalado e os launchers já passavam por esse script.
+- `OperationsPanel.tsx` e `OperatorPanel.tsx` apontavam para `/qr-gesto.svg` e `/qr-duvidas.svg`, que já tinham sido removidos de `public/` (imagens quebradas). Passam a usar o componente `ShareQr`, que gera o QR na hora com o endereço da rede.
+- `ShareQr` ganhou a classe `share-qr` e o CSS correspondente em `app/globals.css`, para o SVG gerado pelo `uqr` (que traz `viewBox`, mas não `width`/`height`) ter tamanho fixo e visível.
+- `.gitignore` passa a ignorar `*.save` e `__MACOSX/`. O resíduo `package.json.save` foi removido do pacote.
+- README: o exemplo de tag de release passa a ser `v1.0.2`.
+
 ## Correções do empacotamento desktop (histórico)
 
 - `main.js` não usa mais `await` no nível superior: em ESM isso impede o evento `ready` do Electron e o app ficava só pulando no Dock, sem janela.

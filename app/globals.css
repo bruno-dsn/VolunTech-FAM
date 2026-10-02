@@ -368,3 +368,9 @@ th { background: #f8f1f5; color: #683d53; font-size: .76rem; }
 .gesture-preview .qr-placeholder { width: 86px; height: 86px; }
 .share-url { display: block; margin-top: 6px; font-size: .72rem; word-break: break-all; opacity: .85; }
 .share-hint { color: #b4545f; }
+
+/* QR gerado como SVG inline: o SVG do uqr tem viewBox, mas não define width/height. */
+.share-qr { display: inline-block; flex: none; line-height: 0; vertical-align: middle; background: #fff; border: 6px solid #fff; border-radius: 7px; box-sizing: content-box; }
+.share-qr > svg { display: block; width: 100%; height: 100%; }
+.qr-card .share-qr { display: block; width: 150px; height: 150px; margin: 4px auto 14px; box-shadow: 0 0 0 1px #e4d4dd; }
+.gesture-preview .share-qr { width: 86px; height: 86px; }
