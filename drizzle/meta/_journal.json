@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1790689246539,
+      "tag": "0000_living_carlie_cooper",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1790692661123,
+      "tag": "0001_purple_runaways",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1790705889155,
+      "tag": "0002_bored_dracula",
+      "breakpoints": true
+    }
+  ]
+}

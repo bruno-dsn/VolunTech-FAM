@@ -1,0 +1,21 @@
+VOLUNTECH - WINDOWS
+
+OPCAO RECOMENDADA (para colegas): instalador .exe
+1. Baixe o VolunTech-Setup-x.x.x.exe na pagina "Releases" do GitHub.
+2. De duplo clique e conclua a instalacao.
+3. Se aparecer "O Windows protegeu o computador" (SmartScreen): clique em
+   "Mais informacoes" > "Executar assim mesmo". Acontece porque o projeto academico nao tem
+   certificado pago de assinatura.
+4. Abra o VolunTech pelo Menu Iniciar ou pela Area de Trabalho.
+
+OPCAO PARA TESTAR O CODIGO-FONTE: Abrir-VolunTech-Windows.bat
+1. Extraia o ZIP inteiro (nao execute de dentro do ZIP) e de duplo clique no .bat.
+2. Na PRIMEIRA vez ele baixa Node.js e instala as dependencias. Leva alguns minutos e nao
+   aparece janela nenhuma. Aguarde ate a janela do VolunTech abrir.
+3. Se nao abrir, veja os logs em .voluntech-runtime\install.log
+
+QR CODES (CELULAR)
+Os QR Codes da tela inicial abrem no celular se ele estiver no MESMO Wi-Fi do computador.
+Na primeira abertura o Windows pode perguntar sobre o Firewall: marque "Redes particulares" e clique em
+"Permitir acesso". Se o Wi-Fi bloquear a conexao entre aparelhos, use o hotspot do celular.
+Para desligar o compartilhamento: defina a variavel de ambiente VOLUNTECH_LAN=0.

@@ -1,0 +1,25 @@
+VOLUNTECH - MAC
+
+OPCAO RECOMENDADA (para colegas): instalador .dmg
+1. Baixe o .dmg na pagina "Releases" do GitHub (arm64 = Macs M1/M2/M3/M4; x64 = Macs Intel).
+2. Abra o .dmg e arraste o VolunTech para "Applications".
+3. Na primeira vez o macOS pode dizer que o app "e de um desenvolvedor nao identificado"
+   ou "esta danificado". Isso acontece porque o projeto academico nao e assinado pela Apple.
+   Solucao: clique com o botao direito no VolunTech > Abrir > Abrir.
+   Se ainda assim bloquear, abra o Terminal e rode:
+       xattr -cr /Applications/VolunTech.app
+
+OPCAO PARA TESTAR O CODIGO-FONTE: Abrir-VolunTech-Mac.command
+1. De duplo clique em Abrir-VolunTech-Mac.command (se o macOS bloquear: botao direito > Abrir).
+2. Na PRIMEIRA vez ele baixa Node.js e instala as dependencias. Isso leva alguns minutos e
+   nao aparece janela nenhuma; uma notificacao avisa. Aguarde ate a janela do VolunTech abrir.
+3. Se nao abrir, veja os logs em .voluntech-runtime/install.log e .voluntech-runtime/app.log
+4. Se o macOS disser "sem permissao", rode uma vez no Terminal, dentro da pasta do projeto:
+       chmod +x Abrir-VolunTech-Mac.command
+   e, se baixou como ZIP:  xattr -dr com.apple.quarantine .
+
+QR CODES (CELULAR)
+Os QR Codes da tela inicial abrem no celular se ele estiver no MESMO Wi-Fi do Mac.
+Na primeira abertura o macOS pode perguntar "Deseja permitir que o aplicativo aceite conexoes de rede
+de entrada?": clique em "Permitir". Se o Wi-Fi bloquear a conexao entre aparelhos, use o hotspot do celular.
+Para desligar o compartilhamento: abra com VOLUNTECH_LAN=0 definido no ambiente.

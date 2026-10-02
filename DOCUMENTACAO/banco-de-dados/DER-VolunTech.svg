@@ -1,0 +1,264 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1620 960" width="1620" height="960" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTowNmFlNGQ4NS0yNTMwLTRmZWItOWI4ZC1jM2VlODg2ODJlYmMAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaIRpavA87n1A804ergyYvxkAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo1MDVmYTEwNy1lMTQ3LTQ1NDctODlmOC0xYjQ3ZDY0MTk3MGZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoM/3dv3EngNyjRPkK96FQOQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggn6yAEPzp/SJC+RHaksAI6H205FEfZkAYjg+sIYLtnq6kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaGkkzuuEjDEMOniU47iUICIAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCAqogaXfwsE1EKPpQNEaGeusG3ejEdQvN0dQEeBEADelmRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjQZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjA2YWU0ZDg1LTI1MzAtNGZlYi05YjhkLWMzZWU4ODY4MmViYy9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjVlNjZmMzM4LTQyODQtNDY3Yy1hNGU3LTFhYThkZmMyNDE1M3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCfrIAQ/On9IkL5EdqSwAjofbTkUR9mQBiOD6whgu2erqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg9VfSJzQ+f5qQhW3Cv0QLrgaNvGZigMh/VNI6k1z75A6iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggCdF7xi9JLIauYS9DEx+VTZVt4SI0t/bYaCuz+a4zA8Z0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQOouMyRVCSARdMWZrJ8/+4D1QtkdWa7XMt2ECA1MSF3J9ZfUgcO7QWMGscqFhfSvsjYT7C9LD1AqzN3YOeccPjg=</c2pa:manifest></metadata>
+<title>VolunTech: diagrama entidade-relacionamento (DER lógico)</title><desc>Nove tabelas do banco do VolunTech, agrupadas em gestão, doações, atendimento e apoio, com as ligações e cardinalidades em notação pé de galinha.</desc>
+<rect width="1620" height="960" fill="#fbf3f7"/>
+<text x="30" y="38" font-size="24" font-weight="700" fill="#4a1a35">VolunTech · Diagrama Entidade-Relacionamento (DER lógico)</text>
+<text x="30" y="58" font-size="13" fill="#785b6a">9 tabelas do banco D1/SQLite · notação pé de galinha · gerado a partir de db/schema.ts e drizzle/*.sql</text>
+<rect x="30" y="75" width="750" height="880" rx="16" fill="#ffffff" fill-opacity=".55" stroke="#9f1763" stroke-opacity=".5" stroke-dasharray="6 5"/>
+<text x="46" y="99" font-size="13" font-weight="700" fill="#9f1763" letter-spacing=".04em">GESTÃO DO VOLUNTARIADO</text>
+<rect x="800" y="75" width="380" height="590" rx="16" fill="#ffffff" fill-opacity=".55" stroke="#7b3fa0" stroke-opacity=".5" stroke-dasharray="6 5"/>
+<text x="816" y="99" font-size="13" font-weight="700" fill="#7b3fa0" letter-spacing=".04em">DOAÇÕES</text>
+<rect x="1210" y="75" width="380" height="590" rx="16" fill="#ffffff" fill-opacity=".55" stroke="#1f6f8b" stroke-opacity=".5" stroke-dasharray="6 5"/>
+<text x="1226" y="99" font-size="13" font-weight="700" fill="#1f6f8b" letter-spacing=".04em">ATENDIMENTO (CHAT)</text>
+<rect x="800" y="690" width="790" height="230" rx="16" fill="#ffffff" fill-opacity=".55" stroke="#6b7280" stroke-opacity=".5" stroke-dasharray="6 5"/>
+<text x="816" y="714" font-size="13" font-weight="700" fill="#6b7280" letter-spacing=".04em">APOIO (SEM LIGAÇÃO COM AS DEMAIS)</text>
+<path d="M310 183 L370 183 L370 209 L430 209" fill="none" stroke="#3d0f2c" stroke-width="2"/>
+<g transform="translate(310 183) rotate(0.0)" stroke="#3d0f2c" stroke-width="2" fill="none"><path d="M12 -8V8"/><circle cx="26" cy="0" r="5" fill="#fff"/></g>
+<g transform="translate(430 209) rotate(180.0)" stroke="#3d0f2c" stroke-width="2" fill="none"><path d="M24 0L0 -9M24 0L0 9"/><circle cx="35" cy="0" r="5" fill="#fff"/></g>
+<rect x="338.0" y="135" width="64" height="20" rx="6" fill="#fff" stroke="#e5cfdb"/><text x="370" y="150" font-size="12" text-anchor="middle" fill="#4a1a35">realiza</text>
+<path d="M575 440 L575 520" fill="none" stroke="#3d0f2c" stroke-width="2" stroke-dasharray="7 5"/>
+<g transform="translate(575 440) rotate(90.0)" stroke="#3d0f2c" stroke-width="2" fill="none"><path d="M24 0L0 -9M24 0L0 9"/><circle cx="35" cy="0" r="5" fill="#fff"/></g>
+<g transform="translate(575 520) rotate(-90.0)" stroke="#3d0f2c" stroke-width="2" fill="none"><path d="M12 -8V8"/><circle cx="26" cy="0" r="5" fill="#fff"/></g>
+<rect x="500.0" y="469" width="150" height="20" rx="6" fill="#fff" stroke="#e5cfdb"/><text x="575" y="484" font-size="12" text-anchor="middle" fill="#4a1a35">coordena (opcional)</text>
+<path d="M980 350 L980 430" fill="none" stroke="#3d0f2c" stroke-width="2"/>
+<g transform="translate(980 350) rotate(90.0)" stroke="#3d0f2c" stroke-width="2" fill="none"><path d="M12 -8V8M19 -8V8"/></g>
+<g transform="translate(980 430) rotate(-90.0)" stroke="#3d0f2c" stroke-width="2" fill="none"><path d="M24 0L0 -9M24 0L0 9M30 -8V8"/></g>
+<rect x="948.0" y="379" width="64" height="20" rx="6" fill="#fff" stroke="#e5cfdb"/><text x="980" y="394" font-size="12" text-anchor="middle" fill="#4a1a35">registra</text>
+<path d="M1390 306 L1390 430" fill="none" stroke="#3d0f2c" stroke-width="2"/>
+<g transform="translate(1390 306) rotate(90.0)" stroke="#3d0f2c" stroke-width="2" fill="none"><path d="M12 -8V8M19 -8V8"/></g>
+<g transform="translate(1390 430) rotate(-90.0)" stroke="#3d0f2c" stroke-width="2" fill="none"><path d="M24 0L0 -9M24 0L0 9M30 -8V8"/></g>
+<rect x="1358.0" y="357" width="64" height="20" rx="6" fill="#fff" stroke="#e5cfdb"/><text x="1390" y="372" font-size="12" text-anchor="middle" fill="#4a1a35">contém</text>
+<rect x="60" y="140" width="250" height="142" rx="10" fill="#fff" stroke="#9f1763" stroke-width="2"/>
+<path d="M60 150a10 10 0 0 1 10 -10h230a10 10 0 0 1 10 10v22h-250z" fill="#9f1763"/>
+<text x="74" y="162" font-size="15" font-weight="700" fill="#fff">partners</text>
+<rect x="68" y="175" width="26" height="16" rx="4" fill="#9f1763"/><text x="81.0" y="187" font-size="10" font-weight="700" text-anchor="middle" fill="#fff">PK</text>
+<text x="104" y="187" font-size="12.5" font-weight="700" fill="#3d0f2c">id</text>
+<text x="300" y="187" font-size="11" text-anchor="end" fill="#9a8590">int</text>
+<rect x="61" y="194" width="248" height="22" fill="#faf5f8"/>
+<text x="104" y="209" font-size="12.5" font-style="italic" fill="#8a7683">owner</text>
+<text x="300" y="209" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="104" y="231" font-size="12.5" fill="#3d0f2c">name</text>
+<text x="300" y="231" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="61" y="238" width="248" height="22" fill="#faf5f8"/>
+<text x="104" y="253" font-size="12.5" fill="#3d0f2c">kind</text>
+<text x="300" y="253" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="104" y="275" font-size="12.5" fill="#3d0f2c">created_at</text>
+<text x="300" y="275" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="430" y="100" width="290" height="340" rx="10" fill="#fff" stroke="#9f1763" stroke-width="2"/>
+<path d="M430 110a10 10 0 0 1 10 -10h270a10 10 0 0 1 10 10v22h-290z" fill="#9f1763"/>
+<text x="444" y="122" font-size="15" font-weight="700" fill="#fff">actions</text>
+<rect x="438" y="135" width="26" height="16" rx="4" fill="#9f1763"/><text x="451.0" y="147" font-size="10" font-weight="700" text-anchor="middle" fill="#fff">PK</text>
+<text x="474" y="147" font-size="12.5" font-weight="700" fill="#3d0f2c">id</text>
+<text x="710" y="147" font-size="11" text-anchor="end" fill="#9a8590">int</text>
+<rect x="431" y="154" width="288" height="22" fill="#faf5f8"/>
+<text x="474" y="169" font-size="12.5" font-style="italic" fill="#8a7683">owner</text>
+<text x="710" y="169" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="474" y="191" font-size="12.5" fill="#3d0f2c">title</text>
+<text x="710" y="191" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="431" y="198" width="288" height="22" fill="#faf5f8"/>
+<rect x="438" y="201" width="26" height="16" rx="4" fill="#f6b4d0"/><text x="451.0" y="213" font-size="10" font-weight="700" text-anchor="middle" fill="#4a1a35">FK</text>
+<text x="474" y="213" font-size="12.5" fill="#3d0f2c">partner_id</text>
+<text x="710" y="213" font-size="11" text-anchor="end" fill="#9a8590">int</text>
+<rect x="438" y="223" width="30" height="16" rx="4" fill="#f6b4d0"/><text x="453.0" y="235" font-size="10" font-weight="700" text-anchor="middle" fill="#4a1a35">FK*</text>
+<text x="474" y="235" font-size="12.5" fill="#3d0f2c">volunteer_cpf</text>
+<text x="710" y="235" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="431" y="242" width="288" height="22" fill="#faf5f8"/>
+<text x="474" y="257" font-size="12.5" fill="#3d0f2c">scheduled_at</text>
+<text x="710" y="257" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="474" y="279" font-size="12.5" fill="#3d0f2c">participants</text>
+<text x="710" y="279" font-size="11" text-anchor="end" fill="#9a8590">int</text>
+<rect x="431" y="286" width="288" height="22" fill="#faf5f8"/>
+<text x="474" y="301" font-size="12.5" fill="#3d0f2c">department</text>
+<text x="710" y="301" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="474" y="323" font-size="12.5" fill="#3d0f2c">source_channel</text>
+<text x="710" y="323" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="431" y="330" width="288" height="22" fill="#faf5f8"/>
+<text x="474" y="345" font-size="12.5" fill="#3d0f2c">documents</text>
+<text x="710" y="345" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="474" y="367" font-size="12.5" fill="#3d0f2c">status</text>
+<text x="710" y="367" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="431" y="374" width="288" height="22" fill="#faf5f8"/>
+<text x="474" y="389" font-size="12.5" fill="#3d0f2c">notes</text>
+<text x="710" y="389" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="474" y="411" font-size="12.5" fill="#3d0f2c">created_at</text>
+<text x="710" y="411" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="431" y="418" width="288" height="22" fill="#faf5f8"/>
+<text x="474" y="433" font-size="12.5" fill="#3d0f2c">updated_at</text>
+<text x="710" y="433" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="430" y="520" width="290" height="384" rx="10" fill="#fff" stroke="#9f1763" stroke-width="2"/>
+<path d="M430 530a10 10 0 0 1 10 -10h270a10 10 0 0 1 10 10v22h-290z" fill="#9f1763"/>
+<text x="444" y="542" font-size="15" font-weight="700" fill="#fff">volunteers</text>
+<rect x="438" y="555" width="26" height="16" rx="4" fill="#9f1763"/><text x="451.0" y="567" font-size="10" font-weight="700" text-anchor="middle" fill="#fff">PK</text>
+<text x="474" y="567" font-size="12.5" font-weight="700" fill="#3d0f2c">id</text>
+<text x="710" y="567" font-size="11" text-anchor="end" fill="#9a8590">int</text>
+<rect x="431" y="574" width="288" height="22" fill="#faf5f8"/>
+<text x="474" y="589" font-size="12.5" font-style="italic" fill="#8a7683">owner</text>
+<text x="710" y="589" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="438" y="599" width="26" height="16" rx="4" fill="#e8e0e5"/><text x="451.0" y="611" font-size="10" font-weight="700" text-anchor="middle" fill="#4a1a35">UQ</text>
+<text x="474" y="611" font-size="12.5" fill="#3d0f2c">cpf</text>
+<text x="710" y="611" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="431" y="618" width="288" height="22" fill="#faf5f8"/>
+<text x="474" y="633" font-size="12.5" fill="#3d0f2c">name</text>
+<text x="710" y="633" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="474" y="655" font-size="12.5" fill="#3d0f2c">email</text>
+<text x="710" y="655" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="431" y="662" width="288" height="22" fill="#faf5f8"/>
+<text x="474" y="677" font-size="12.5" fill="#3d0f2c">niche</text>
+<text x="710" y="677" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="474" y="699" font-size="12.5" fill="#3d0f2c">niche_key</text>
+<text x="710" y="699" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="431" y="706" width="288" height="22" fill="#faf5f8"/>
+<text x="474" y="721" font-size="12.5" fill="#3d0f2c">company</text>
+<text x="710" y="721" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="474" y="743" font-size="12.5" fill="#3d0f2c">address</text>
+<text x="710" y="743" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="431" y="750" width="288" height="22" fill="#faf5f8"/>
+<text x="474" y="765" font-size="12.5" fill="#3d0f2c">city</text>
+<text x="710" y="765" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="474" y="787" font-size="12.5" fill="#3d0f2c">phone</text>
+<text x="710" y="787" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="431" y="794" width="288" height="22" fill="#faf5f8"/>
+<text x="474" y="809" font-size="12.5" fill="#3d0f2c">availability</text>
+<text x="710" y="809" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="474" y="831" font-size="12.5" fill="#3d0f2c">status</text>
+<text x="710" y="831" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="431" y="838" width="288" height="22" fill="#faf5f8"/>
+<text x="474" y="853" font-size="12.5" fill="#3d0f2c">stage</text>
+<text x="710" y="853" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="474" y="875" font-size="12.5" fill="#3d0f2c">created_at</text>
+<text x="710" y="875" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="431" y="882" width="288" height="22" fill="#faf5f8"/>
+<text x="474" y="897" font-size="12.5" fill="#3d0f2c">updated_at</text>
+<text x="710" y="897" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="830" y="120" width="300" height="230" rx="10" fill="#fff" stroke="#7b3fa0" stroke-width="2"/>
+<path d="M830 130a10 10 0 0 1 10 -10h280a10 10 0 0 1 10 10v22h-300z" fill="#7b3fa0"/>
+<text x="844" y="142" font-size="15" font-weight="700" fill="#fff">donations</text>
+<rect x="838" y="155" width="26" height="16" rx="4" fill="#9f1763"/><text x="851.0" y="167" font-size="10" font-weight="700" text-anchor="middle" fill="#fff">PK</text>
+<text x="874" y="167" font-size="12.5" font-weight="700" fill="#3d0f2c">id</text>
+<text x="1120" y="167" font-size="11" text-anchor="end" fill="#9a8590">int</text>
+<rect x="831" y="174" width="298" height="22" fill="#faf5f8"/>
+<text x="874" y="189" font-size="12.5" font-style="italic" fill="#8a7683">owner</text>
+<text x="1120" y="189" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="874" y="211" font-size="12.5" fill="#3d0f2c">donor</text>
+<text x="1120" y="211" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="831" y="218" width="298" height="22" fill="#faf5f8"/>
+<text x="874" y="233" font-size="12.5" fill="#3d0f2c">item</text>
+<text x="1120" y="233" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="874" y="255" font-size="12.5" fill="#3d0f2c">unit</text>
+<text x="1120" y="255" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="831" y="262" width="298" height="22" fill="#faf5f8"/>
+<text x="874" y="277" font-size="12.5" fill="#3d0f2c">quantity_received</text>
+<text x="1120" y="277" font-size="11" text-anchor="end" fill="#9a8590">int</text>
+<text x="874" y="299" font-size="12.5" fill="#3d0f2c">quantity_distributed</text>
+<text x="1120" y="299" font-size="11" text-anchor="end" fill="#9a8590">int</text>
+<rect x="831" y="306" width="298" height="22" fill="#faf5f8"/>
+<text x="874" y="321" font-size="12.5" fill="#3d0f2c">purpose</text>
+<text x="1120" y="321" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="874" y="343" font-size="12.5" fill="#3d0f2c">received_at</text>
+<text x="1120" y="343" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="830" y="430" width="300" height="186" rx="10" fill="#fff" stroke="#7b3fa0" stroke-width="2"/>
+<path d="M830 440a10 10 0 0 1 10 -10h280a10 10 0 0 1 10 10v22h-300z" fill="#7b3fa0"/>
+<text x="844" y="452" font-size="15" font-weight="700" fill="#fff">donation_movements</text>
+<rect x="838" y="465" width="26" height="16" rx="4" fill="#9f1763"/><text x="851.0" y="477" font-size="10" font-weight="700" text-anchor="middle" fill="#fff">PK</text>
+<text x="874" y="477" font-size="12.5" font-weight="700" fill="#3d0f2c">id</text>
+<text x="1120" y="477" font-size="11" text-anchor="end" fill="#9a8590">int</text>
+<rect x="831" y="484" width="298" height="22" fill="#faf5f8"/>
+<text x="874" y="499" font-size="12.5" font-style="italic" fill="#8a7683">owner</text>
+<text x="1120" y="499" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="838" y="509" width="26" height="16" rx="4" fill="#f6b4d0"/><text x="851.0" y="521" font-size="10" font-weight="700" text-anchor="middle" fill="#4a1a35">FK</text>
+<text x="874" y="521" font-size="12.5" fill="#3d0f2c">donation_id</text>
+<text x="1120" y="521" font-size="11" text-anchor="end" fill="#9a8590">int</text>
+<rect x="831" y="528" width="298" height="22" fill="#faf5f8"/>
+<text x="874" y="543" font-size="12.5" fill="#3d0f2c">kind</text>
+<text x="1120" y="543" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="874" y="565" font-size="12.5" fill="#3d0f2c">quantity</text>
+<text x="1120" y="565" font-size="11" text-anchor="end" fill="#9a8590">int</text>
+<rect x="831" y="572" width="298" height="22" fill="#faf5f8"/>
+<text x="874" y="587" font-size="12.5" fill="#3d0f2c">destination</text>
+<text x="1120" y="587" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="874" y="609" font-size="12.5" fill="#3d0f2c">created_at</text>
+<text x="1120" y="609" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="1240" y="120" width="300" height="186" rx="10" fill="#fff" stroke="#1f6f8b" stroke-width="2"/>
+<path d="M1240 130a10 10 0 0 1 10 -10h280a10 10 0 0 1 10 10v22h-300z" fill="#1f6f8b"/>
+<text x="1254" y="142" font-size="15" font-weight="700" fill="#fff">chat_tickets</text>
+<rect x="1248" y="155" width="26" height="16" rx="4" fill="#9f1763"/><text x="1261.0" y="167" font-size="10" font-weight="700" text-anchor="middle" fill="#fff">PK</text>
+<text x="1284" y="167" font-size="12.5" font-weight="700" fill="#3d0f2c">id</text>
+<text x="1530" y="167" font-size="11" text-anchor="end" fill="#9a8590">int</text>
+<rect x="1241" y="174" width="298" height="22" fill="#faf5f8"/>
+<text x="1284" y="189" font-size="12.5" fill="#3d0f2c">visitor</text>
+<text x="1530" y="189" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="1284" y="211" font-size="12.5" fill="#3d0f2c">guest_name</text>
+<text x="1530" y="211" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="1241" y="218" width="298" height="22" fill="#faf5f8"/>
+<text x="1284" y="233" font-size="12.5" fill="#3d0f2c">status</text>
+<text x="1530" y="233" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="1284" y="255" font-size="12.5" fill="#3d0f2c">claimed_by</text>
+<text x="1530" y="255" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="1241" y="262" width="298" height="22" fill="#faf5f8"/>
+<text x="1284" y="277" font-size="12.5" fill="#3d0f2c">created_at</text>
+<text x="1530" y="277" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="1284" y="299" font-size="12.5" fill="#3d0f2c">updated_at</text>
+<text x="1530" y="299" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="1240" y="430" width="300" height="142" rx="10" fill="#fff" stroke="#1f6f8b" stroke-width="2"/>
+<path d="M1240 440a10 10 0 0 1 10 -10h280a10 10 0 0 1 10 10v22h-300z" fill="#1f6f8b"/>
+<text x="1254" y="452" font-size="15" font-weight="700" fill="#fff">chat_messages</text>
+<rect x="1248" y="465" width="26" height="16" rx="4" fill="#9f1763"/><text x="1261.0" y="477" font-size="10" font-weight="700" text-anchor="middle" fill="#fff">PK</text>
+<text x="1284" y="477" font-size="12.5" font-weight="700" fill="#3d0f2c">id</text>
+<text x="1530" y="477" font-size="11" text-anchor="end" fill="#9a8590">int</text>
+<rect x="1241" y="484" width="298" height="22" fill="#faf5f8"/>
+<rect x="1248" y="487" width="26" height="16" rx="4" fill="#f6b4d0"/><text x="1261.0" y="499" font-size="10" font-weight="700" text-anchor="middle" fill="#4a1a35">FK</text>
+<text x="1284" y="499" font-size="12.5" fill="#3d0f2c">ticket_id</text>
+<text x="1530" y="499" font-size="11" text-anchor="end" fill="#9a8590">int</text>
+<text x="1284" y="521" font-size="12.5" fill="#3d0f2c">sender</text>
+<text x="1530" y="521" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="1241" y="528" width="298" height="22" fill="#faf5f8"/>
+<text x="1284" y="543" font-size="12.5" fill="#3d0f2c">body</text>
+<text x="1530" y="543" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="1284" y="565" font-size="12.5" fill="#3d0f2c">created_at</text>
+<text x="1530" y="565" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="830" y="740" width="300" height="142" rx="10" fill="#fff" stroke="#6b7280" stroke-width="2"/>
+<path d="M830 750a10 10 0 0 1 10 -10h280a10 10 0 0 1 10 10v22h-300z" fill="#6b7280"/>
+<text x="844" y="762" font-size="15" font-weight="700" fill="#fff">activity_log</text>
+<rect x="838" y="775" width="26" height="16" rx="4" fill="#9f1763"/><text x="851.0" y="787" font-size="10" font-weight="700" text-anchor="middle" fill="#fff">PK</text>
+<text x="874" y="787" font-size="12.5" font-weight="700" fill="#3d0f2c">id</text>
+<text x="1120" y="787" font-size="11" text-anchor="end" fill="#9a8590">int</text>
+<rect x="831" y="794" width="298" height="22" fill="#faf5f8"/>
+<text x="874" y="809" font-size="12.5" font-style="italic" fill="#8a7683">owner</text>
+<text x="1120" y="809" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="874" y="831" font-size="12.5" fill="#3d0f2c">category</text>
+<text x="1120" y="831" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="831" y="838" width="298" height="22" fill="#faf5f8"/>
+<text x="874" y="853" font-size="12.5" fill="#3d0f2c">detail</text>
+<text x="1120" y="853" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="874" y="875" font-size="12.5" fill="#3d0f2c">created_at</text>
+<text x="1120" y="875" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="1240" y="740" width="300" height="120" rx="10" fill="#fff" stroke="#6b7280" stroke-width="2"/>
+<path d="M1240 750a10 10 0 0 1 10 -10h280a10 10 0 0 1 10 10v22h-300z" fill="#6b7280"/>
+<text x="1254" y="762" font-size="15" font-weight="700" fill="#fff">staff_sessions</text>
+<rect x="1248" y="775" width="26" height="16" rx="4" fill="#9f1763"/><text x="1261.0" y="787" font-size="10" font-weight="700" text-anchor="middle" fill="#fff">PK</text>
+<text x="1284" y="787" font-size="12.5" font-weight="700" fill="#3d0f2c">token</text>
+<text x="1530" y="787" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="1241" y="794" width="298" height="22" fill="#faf5f8"/>
+<text x="1284" y="809" font-size="12.5" fill="#3d0f2c">display_name</text>
+<text x="1530" y="809" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<text x="1284" y="831" font-size="12.5" fill="#3d0f2c">expires_at</text>
+<text x="1530" y="831" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="1241" y="838" width="298" height="22" fill="#faf5f8"/>
+<text x="1284" y="853" font-size="12.5" fill="#3d0f2c">created_at</text>
+<text x="1530" y="853" font-size="11" text-anchor="end" fill="#9a8590">texto</text>
+<rect x="60" y="340" width="310" height="400" rx="12" fill="#fff" stroke="#d9bfcc"/>
+<text x="76" y="366" font-size="14" font-weight="700" fill="#4a1a35">Como ler o diagrama</text>
+<rect x="74" y="383" width="26" height="16" rx="4" fill="#9f1763"/><text x="87.0" y="395" font-size="10" font-weight="700" text-anchor="middle" fill="#fff">PK</text>
+<text x="114" y="395" font-size="12" fill="#3d0f2c">chave primária: identifica a linha</text>
+<rect x="74" y="409" width="26" height="16" rx="4" fill="#f6b4d0"/><text x="87.0" y="421" font-size="10" font-weight="700" text-anchor="middle" fill="#4a1a35">FK</text>
+<text x="114" y="421" font-size="12" fill="#3d0f2c">aponta para outra tabela</text>
+<rect x="74" y="435" width="30" height="16" rx="4" fill="#f6b4d0"/><text x="89.0" y="447" font-size="10" font-weight="700" text-anchor="middle" fill="#4a1a35">FK*</text>
+<text x="114" y="447" font-size="12" fill="#3d0f2c">aponta por CPF (regra do sistema)</text>
+<rect x="74" y="461" width="26" height="16" rx="4" fill="#e8e0e5"/><text x="87.0" y="473" font-size="10" font-weight="700" text-anchor="middle" fill="#4a1a35">UQ</text>
+<text x="114" y="473" font-size="12" fill="#3d0f2c">valor único (junto com owner)</text>
+<text x="74" y="497" font-size="12" font-style="italic" fill="#8a7683">owner</text><text x="114" y="497" font-size="12" fill="#3d0f2c">código da sessão de demonstração;</text><text x="114" y="512" font-size="12" fill="#3d0f2c">separa os dados de cada pessoa</text>
+<path d="M76 545 H136" stroke="#3d0f2c" stroke-width="2"/><g transform="translate(136 545) rotate(180.0)" stroke="#3d0f2c" stroke-width="2" fill="none"><path d="M12 -8V8M19 -8V8"/></g><text x="154" y="549" font-size="12" fill="#3d0f2c">um, e só um</text>
+<path d="M76 571 H136" stroke="#3d0f2c" stroke-width="2"/><g transform="translate(136 571) rotate(180.0)" stroke="#3d0f2c" stroke-width="2" fill="none"><path d="M12 -8V8"/><circle cx="26" cy="0" r="5" fill="#fff"/></g><text x="154" y="575" font-size="12" fill="#3d0f2c">zero ou um</text>
+<path d="M76 597 H136" stroke="#3d0f2c" stroke-width="2"/><g transform="translate(136 597) rotate(180.0)" stroke="#3d0f2c" stroke-width="2" fill="none"><path d="M24 0L0 -9M24 0L0 9M30 -8V8"/></g><text x="154" y="601" font-size="12" fill="#3d0f2c">um ou muitos</text>
+<path d="M76 623 H136" stroke="#3d0f2c" stroke-width="2"/><g transform="translate(136 623) rotate(180.0)" stroke="#3d0f2c" stroke-width="2" fill="none"><path d="M24 0L0 -9M24 0L0 9"/><circle cx="35" cy="0" r="5" fill="#fff"/></g><text x="154" y="627" font-size="12" fill="#3d0f2c">zero ou muitos</text>
+<text x="76" y="666" font-size="11.5" fill="#785b6a">Tracejado = ligação por CPF, sem chave</text><text x="76" y="681" font-size="11.5" fill="#785b6a">estrangeira. Hoje o código garante as</text><text x="76" y="696" font-size="11.5" fill="#785b6a">ligações FK (não há FOREIGN KEY no banco).</text><text x="76" y="720" font-size="11.5" fill="#785b6a">Datas ficam como texto ISO (SQLite).</text>
+</svg>
