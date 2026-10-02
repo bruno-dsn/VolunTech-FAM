@@ -358,7 +358,6 @@ A tela inicial apresenta o propósito da demonstração, o acesso à gestão e o
 <summary><strong>2. Visão do setor</strong></summary>
 
 <p align="center">
-  <img src="Fotos/02-visao-do-setor.png" alt="Visão do setor do VolunTech" width="100%">
 </p>
 
 O painel reúne indicadores e informações de acompanhamento em uma visão única.
@@ -402,7 +401,6 @@ A equipe pode acompanhar a fila de atendimento e responder às dúvidas dos visi
 <summary><strong>6. Sobre o VolunTech</strong></summary>
 
 <p align="center">
-  <img src="Fotos/06-sobre-o-voluntech.png" alt="Tela Sobre o VolunTech" width="100%">
 </p>
 
 A tela apresenta o contexto acadêmico, o problema abordado e a proposta da solução.
@@ -424,7 +422,6 @@ O Laboratório SQL permite praticar consultas sobre dados fictícios e possui ve
 <summary><strong>8. Material visual adicional</strong></summary>
 
 <p align="center">
-  <img src="Fotos/08-respostas.png" alt="Material visual adicional do projeto" width="100%">
 </p>
 
 Imagem adicional presente no material de referência entregue junto ao projeto.
