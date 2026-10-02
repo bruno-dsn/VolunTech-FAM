@@ -7,7 +7,7 @@ O **VolunTech** foi criado para organizar, em uma única experiência, informaç
 > [!IMPORTANT]
 > **Este é um projeto acadêmico e de demonstração.** Os dados exibidos são fictícios. O sistema **não deve ser usado com dados reais de hospital**.
 
-**Versão atual:** `v1.0.2`
+**Versão atual:** `v1.0.3`
 
 ---
 
@@ -34,7 +34,7 @@ O **VolunTech** foi criado para organizar, em uma única experiência, informaç
 **Baixe:**
 
 ```text
-VolunTech-Setup-1.0.2.exe
+VolunTech-Setup-1.0.3.exe
 ```
 
 Depois:
@@ -53,8 +53,8 @@ No Mac, existem dois tipos de processador que interessam aqui:
 
 | Se em **Sobre Este Mac** aparecer... | Você deve baixar |
 |---|---|
-| **Chip Apple** | `VolunTech-1.0.2-arm64.dmg` |
-| **Processador Intel** | `VolunTech-1.0.2-x64.dmg` |
+| **Chip Apple** | `VolunTech-1.0.3-arm64.dmg` |
+| **Processador Intel** | `VolunTech-1.0.3-x64.dmg` |
 
 #### Como descobrir qual Mac você tem
 
@@ -78,9 +78,9 @@ Se você chegou à página de Releases do GitHub e ficou em dúvida, siga esta t
 
 | Seu computador | Arquivo |
 |---|---|
-| 🪟 **Windows** | `VolunTech-Setup-1.0.2.exe` |
-| 🍎 **Mac com Chip Apple** | `VolunTech-1.0.2-arm64.dmg` |
-| 🍎 **Mac Intel** | `VolunTech-1.0.2-x64.dmg` |
+| 🪟 **Windows** | `VolunTech-Setup-1.0.3.exe` |
+| 🍎 **Mac com Chip Apple** | `VolunTech-1.0.3-arm64.dmg` |
+| 🍎 **Mac Intel** | `VolunTech-1.0.3-x64.dmg` |
 
 ### Regra simples
 
@@ -179,7 +179,7 @@ A **Release** é a página do GitHub usada para distribuir uma versão do projet
 
 Neste projeto, a Release atual é:
 
-**`v1.0.2`**
+**`v1.0.3`**
 
 ### 📄 Source code
 
@@ -200,10 +200,10 @@ Não é o instalador normal para o usuário final.
 
 ### 1. Baixe o instalador
 
-Na Release `v1.0.2`, procure:
+Na Release `v1.0.3`, procure:
 
 ```text
-VolunTech-Setup-1.0.2.exe
+VolunTech-Setup-1.0.3.exe
 ```
 
 ### 2. Abra o instalador
@@ -849,7 +849,7 @@ Para um ambiente real seriam necessários, entre outros pontos:
 
 - **[Repositório no GitHub](https://github.com/bruno-dsn/VolunTech-FAM)**
 - **[Releases / Downloads](https://github.com/bruno-dsn/VolunTech-FAM/releases)**
-- **[Release atual — v1.0.2](https://github.com/bruno-dsn/VolunTech-FAM/releases/tag/v1.0.2)**
+- **[Release atual — v1.0.3](https://github.com/bruno-dsn/VolunTech-FAM/releases/tag/v1.0.3)**
 
 ---
 
