@@ -83,6 +83,24 @@ jobs:
       - name: Build macOS DMG
         run: pnpm build && pnpm exec electron-builder --mac dmg --${{ matrix.arch }} --publish never
 
+      - name: Validate macOS DMG
+        shell: bash
+        run: |
+          set -euo pipefail
+          DMG=$(find release -maxdepth 1 -name '*.dmg' -print -quit)
+          test -n "$DMG"
+          echo "DMG gerado: $DMG"
+          MOUNT_POINT=$(mktemp -d)
+          hdiutil attach "$DMG" -nobrowse -readonly -mountpoint "$MOUNT_POINT"
+          trap 'hdiutil detach "$MOUNT_POINT" -quiet || true; rmdir "$MOUNT_POINT" || true' EXIT
+          APP="$MOUNT_POINT/VolunTech.app"
+          test -d "$APP"
+          echo "Aplicativo encontrado: $APP"
+          /usr/libexec/PlistBuddy -c 'Print :CFBundleIdentifier' "$APP/Contents/Info.plist"
+          file "$APP/Contents/MacOS/VolunTech"
+          codesign -dv --verbose=2 "$APP" 2>&1 | tee /tmp/voluntech-codesign.txt || true
+          grep -q 'Signature=adhoc\|code object is not signed at all' /tmp/voluntech-codesign.txt
+          echo "Validação macOS concluída: build acadêmico sem assinatura Apple."
       - name: Upload macOS installer
         uses: actions/upload-artifact@v4
         with:

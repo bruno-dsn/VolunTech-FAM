@@ -119,6 +119,7 @@
       "shortcutName": "VolunTech"
     },
     "mac": {
+      "appId": "br.com.voluntech.fam",
       "target": [
         "dmg"
       ],
