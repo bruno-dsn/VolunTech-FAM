@@ -56,6 +56,21 @@ No macOS, acesse:
 * Se aparecer **Chip Apple**, utilize a versão `arm64`.
 * Se aparecer **Intel**, utilize a versão `x64`.
 
+### macOS — primeira execução
+
+Esta é uma versão acadêmica do VolunTech distribuída sem assinatura e notarização Apple. Por isso, o macOS pode bloquear a primeira abertura do aplicativo após o download.
+
+Depois de abrir o arquivo `.dmg` e arrastar o **VolunTech** para a pasta **Aplicativos**, se o macOS informar que o aplicativo está danificado ou não pode ser aberto, execute no Terminal:
+
+```bash
+xattr -dr com.apple.quarantine "/Applications/VolunTech.app"
+```
+
+Depois, abra novamente o **VolunTech** pela pasta **Aplicativos**.
+
+Esse comando remove a marca de quarentena aplicada pelo macOS ao aplicativo baixado. Ele **não assina nem notariza o aplicativo** e não substitui a assinatura/notarização oficial da Apple.
+
+Se o aplicativo estiver instalado em outro local, ajuste o caminho no comando.
 ### Releases
 
 **[Acessar os instaladores do VolunTech](https://github.com/bruno-dsn/VolunTech-FAM/releases)**
