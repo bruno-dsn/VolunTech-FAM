@@ -6,7 +6,7 @@ O **VolunTech** é uma aplicação desktop desenvolvida como projeto acadêmico 
 
 > **Importante:** este projeto possui finalidade acadêmica e demonstrativa. Os dados utilizados são fictícios e o sistema não deve ser utilizado para administrar dados reais de pacientes, hospitais ou outras informações sensíveis.
 
-**Versão atual: `v1.0.3`**
+**Versão atual: `v1.0.5`**
 
 ---
 
@@ -14,7 +14,7 @@ O **VolunTech** é uma aplicação desktop desenvolvida como projeto acadêmico 
 
 * [Download](#download)
 * [Conheça o VolunTech](#conheça-o-voluntech)
-* [Funcionalidades](#o-que-o-voluntech-oferece)
+* [Funcionalidades](#funcionalidades)
 * [Demonstração](#demonstração)
 * [Documentação](#documentação)
 * [Tecnologias](#tecnologias)
@@ -28,115 +28,147 @@ O **VolunTech** é uma aplicação desktop desenvolvida como projeto acadêmico 
 
 # Download
 
-A versão mais recente do VolunTech é a **v1.0.3**.
+A versão mais recente do VolunTech é a **v1.0.5**.
 
-Os instaladores oficiais são publicados na página de Releases do projeto.
+Os instaladores oficiais são publicados automaticamente na área de **Releases** do GitHub.
 
 ## Windows
 
 Baixe:
 
-```text
-VolunTech-Setup-1.0.3.exe
-```
+**`VolunTech-Setup-1.0.5.exe`**
 
-## macOS
+O instalador configura o aplicativo no Windows e cria os atalhos necessários.
 
-| Computador                          | Instalador                  |
-| ----------------------------------- | --------------------------- |
-| Apple Silicon — M1, M2, M3, M4 etc. | `VolunTech-1.0.3-arm64.dmg` |
-| Intel                               | `VolunTech-1.0.3-x64.dmg`   |
+## macOS — Apple Silicon
 
-### Qual versão do Mac devo utilizar?
+Para Macs com processadores Apple Silicon, como M1, M2, M3 ou M4:
 
-No macOS, acesse:
+**`VolunTech-1.0.5-arm64.dmg`**
 
-** → Sobre Este Mac**
+## macOS — Intel
 
-* Se aparecer **Chip Apple**, utilize a versão `arm64`.
-* Se aparecer **Intel**, utilize a versão `x64`.
+Para Macs com processador Intel:
 
-### macOS — primeira execução
+**`VolunTech-1.0.5-x64.dmg`**
 
-Esta é uma versão acadêmica do VolunTech distribuída sem assinatura e notarização Apple. Por isso, o macOS pode bloquear a primeira abertura do aplicativo após o download.
+## Releases
 
-Depois de abrir o arquivo `.dmg` e arrastar o **VolunTech** para a pasta **Aplicativos**, se o macOS informar que o aplicativo está danificado ou não pode ser aberto, execute no Terminal:
+Os instaladores oficiais estão disponíveis em:
 
-```bash
-xattr -dr com.apple.quarantine "/Applications/VolunTech.app"
-```
+https://github.com/bruno-dsn/VolunTech-FAM/releases
 
-Depois, abra novamente o **VolunTech** pela pasta **Aplicativos**.
+> **Atenção:** os arquivos `Source code (zip)` e `Source code (tar.gz)` disponibilizados pelo GitHub são apenas cópias do código-fonte do projeto. Eles **não são instaladores do aplicativo**.
 
-Esse comando remove a marca de quarentena aplicada pelo macOS ao aplicativo baixado. Ele **não assina nem notariza o aplicativo** e não substitui a assinatura/notarização oficial da Apple.
+---
 
-Se o aplicativo estiver instalado em outro local, ajuste o caminho no comando.
-### Releases
+## macOS — primeira execução
 
-**[Acessar os instaladores do VolunTech](https://github.com/bruno-dsn/VolunTech-FAM/releases)**
+A versão `v1.0.5` utiliza **assinatura ad-hoc** para o aplicativo macOS, mas não possui assinatura de desenvolvedor Apple nem notarização pela Apple.
 
-> **Importante:** os arquivos `.zip` e `.tar.gz` identificados como `Source code` são códigos-fonte gerados pelo GitHub. Eles não são os instaladores do aplicativo.
+Por isso, dependendo das configurações de segurança do macOS, o sistema pode solicitar uma confirmação adicional na primeira execução.
+
+Depois de abrir o arquivo `.dmg` e arrastar o **VolunTech** para a pasta **Aplicativos**, caso o macOS impeça a abertura do aplicativo, utilize a opção de abrir pelo menu de contexto:
+
+**Control + clique → Abrir**
+
+Também é possível verificar as opções de segurança do sistema caso o macOS apresente um bloqueio.
+
+> A assinatura ad-hoc utilizada nesta versão não equivale à assinatura oficial de desenvolvedor Apple e não substitui o processo de notarização.
 
 ---
 
 # Conheça o VolunTech
 
-Abaixo estão algumas das principais telas da aplicação.
+O VolunTech foi desenvolvido como uma solução acadêmica para representar um sistema de apoio à gestão de voluntariado.
 
-![Tela inicial do VolunTech](./Fotos/01-tela-inicial.png)
+A aplicação reúne diferentes áreas em uma interface desktop:
 
-![Tela de doações do VolunTech](./Fotos/02-doacoes.png)
+* voluntários;
+* instituições;
+* doações;
+* agenda;
+* ações;
+* comunicação;
+* dúvidas;
+* atualizações;
+* laboratório SQL;
+* importação e backup;
+* recursos públicos acessíveis por QR Code.
 
-![Tela de voluntários do VolunTech](./Fotos/03-voluntarios.png)
-
-![Fila de dúvidas do VolunTech](./Fotos/04-fila-de-duvidas.png)
-
-![Laboratório SQL do VolunTech](./Fotos/05-laboratorio-sql.png)
-
----
-
-# O que o VolunTech oferece?
-
-A demonstração reúne diferentes recursos relacionados à gestão de voluntariado e às atividades de uma instituição.
-
-| Recurso                      | Descrição                                             |
-| ---------------------------- | ----------------------------------------------------- |
-| **Visão do setor**           | Visualização geral das informações do setor           |
-| **Ações e agenda**           | Organização de atividades e compromissos              |
-| **Instituições e parceiros** | Informações relacionadas às instituições e parceiros  |
-| **Doações**                  | Gerenciamento e visualização de doações               |
-| **Voluntários**              | Cadastro e acompanhamento dos voluntários             |
-| **Atualizações de hoje**     | Visualização de atualizações recentes                 |
-| **Fila de dúvidas**          | Organização das dúvidas recebidas                     |
-| **Canal do visitante**       | Recursos destinados à interação com visitantes        |
-| **Laboratório SQL**          | Ambiente demonstrativo para consultas e conceitos SQL |
-| **Importar e backup**        | Recursos relacionados a dados e cópias de segurança   |
-| **Sobre o projeto**          | Informações gerais sobre o VolunTech                  |
+O projeto também demonstra a integração entre uma aplicação desktop Electron e uma aplicação web executada localmente.
 
 ---
 
-# Demonstração
+# Funcionalidades
 
-## Login
+| Área                         | Descrição                                                |
+| ---------------------------- | -------------------------------------------------------- |
+| **Visão do setor**           | Apresentação geral das informações do sistema            |
+| **Ações e agenda**           | Organização de ações, atividades e compromissos          |
+| **Instituições e parceiros** | Cadastro e gerenciamento de instituições e parceiros     |
+| **Doações**                  | Registro e acompanhamento de doações                     |
+| **Voluntários**              | Cadastro e gerenciamento de voluntários                  |
+| **Atualizações de hoje**     | Visualização de informações e atividades recentes        |
+| **Fila de dúvidas**          | Organização das dúvidas recebidas                        |
+| **Canal do visitante**       | Acesso público para interação com o sistema              |
+| **Laboratório SQL**          | Ambiente acadêmico para demonstração de consultas SQL    |
+| **Importar e backup**        | Recursos relacionados à importação e cópia dos dados     |
+| **Sobre o projeto**          | Informações sobre o VolunTech e sua finalidade acadêmica |
 
-Para acessar a demonstração:
+---
 
-* Nome: qualquer nome com pelo menos 2 letras
-* Senha:
+# Acesso ao sistema
+
+O sistema possui uma tela de login para acesso às áreas administrativas.
+
+Para a demonstração acadêmica, são utilizados dados de acesso fictícios.
+
+### Nome
+
+Pode ser utilizado qualquer nome contendo pelo menos duas letras.
+
+### Senha
 
 ```text
 VolunTech2026!
 ```
 
-> **Atenção:** essa senha é pública e faz parte da demonstração acadêmica. Não utilize o sistema de demonstração para armazenar informações reais ou confidenciais.
+> Essas credenciais existem exclusivamente para demonstração acadêmica. Não devem ser utilizadas como mecanismo de segurança para dados reais ou informações confidenciais.
 
 ---
 
-## QR Code e acesso pela rede local
+# Demonstração
 
-O VolunTech possui recursos relacionados à descoberta e utilização da aplicação através da rede local.
+A interface principal do VolunTech é composta por diferentes módulos destinados à demonstração das funcionalidades do projeto.
 
-Entre os caminhos utilizados pelo sistema estão:
+## Tela inicial
+
+![Tela inicial do VolunTech](./Fotos/01-tela-inicial.png)
+
+## Doações
+
+![Tela de doações do VolunTech](./Fotos/02-doacoes.png)
+
+## Voluntários
+
+![Tela de voluntários do VolunTech](./Fotos/03-voluntarios.png)
+
+## Fila de dúvidas
+
+![Fila de dúvidas do VolunTech](./Fotos/04-fila-de-duvidas.png)
+
+## Laboratório SQL
+
+![Laboratório SQL do VolunTech](./Fotos/05-laboratorio-sql.png)
+
+---
+
+# Canal público e QR Codes
+
+O VolunTech possui recursos que podem ser acessados por outros dispositivos conectados à mesma rede local.
+
+Entre os caminhos públicos utilizados pelo sistema estão:
 
 ```text
 /duvidas
@@ -144,80 +176,78 @@ Entre os caminhos utilizados pelo sistema estão:
 /api/chat
 ```
 
-O funcionamento depende da configuração da rede local e do ambiente em que a aplicação está sendo executada.
+Esses recursos permitem demonstrar uma experiência em que um visitante pode acessar determinados conteúdos pelo navegador ou por QR Code.
 
-Para utilizar recursos de acesso pela rede:
+Para que o acesso funcione em outro dispositivo:
 
-1. Os dispositivos devem estar conectados à mesma rede.
-2. O computador que executa o VolunTech precisa permitir a comunicação através do firewall, quando necessário.
-3. O endereço utilizado deve corresponder ao endereço de rede disponível no ambiente.
+1. o computador que executa o VolunTech deve estar conectado à rede local;
+2. o dispositivo visitante deve estar na mesma rede;
+3. o firewall do computador deve permitir a comunicação necessária;
+4. o endereço de rede utilizado pelo VolunTech deve ser acessível pelos dispositivos da rede.
 
-> Os recursos de rede fazem parte da demonstração acadêmica e não devem ser considerados uma infraestrutura de produção.
+Esses recursos fazem parte da demonstração acadêmica e não devem ser utilizados para disponibilizar informações sensíveis em uma rede real.
 
 ---
 
 # Documentação
 
-A documentação complementar está disponível na pasta:
+A documentação complementar do projeto está disponível na pasta:
 
 ```text
 DOCUMENTACAO/
 ```
 
-Ela contém materiais relacionados ao projeto, incluindo:
-
-* documentação geral;
-* história e visão do projeto;
-* documentação técnica;
-* documentação do banco de dados;
-* modelo de dados;
-* DER;
-* materiais acadêmicos e de apoio.
-
-Também está disponível:
+Entre os materiais está o documento:
 
 ```text
 DOCUMENTACAO/VolunTech-Historia-e-Visao-Geral.pdf
 ```
 
+A documentação apresenta informações sobre a história, visão geral e desenvolvimento do projeto.
+
 ---
 
 # Tecnologias
 
-O projeto utiliza diferentes tecnologias para a construção da aplicação web, desktop, backend e banco de dados.
+O VolunTech utiliza diferentes tecnologias para demonstrar uma arquitetura moderna de aplicação desktop e web.
 
-| Área                         | Tecnologias                   |
-| ---------------------------- | ----------------------------- |
-| **Interface**                | React, TypeScript             |
-| **Aplicação**                | Next.js / Vinext, Vite        |
-| **Desktop**                  | Electron                      |
-| **Runtime / Backend**        | Cloudflare Workers, Miniflare |
-| **Banco de dados**           | SQLite, Cloudflare D1         |
-| **ORM**                      | Drizzle ORM                   |
-| **Gerenciamento de pacotes** | pnpm                          |
-| **Controle de versão**       | Git, GitHub                   |
-| **Automação**                | GitHub Actions                |
+| Tecnologia             | Utilização                                                  |
+| ---------------------- | ----------------------------------------------------------- |
+| **React**              | Construção da interface                                     |
+| **TypeScript**         | Tipagem e desenvolvimento da aplicação                      |
+| **Next.js / Vinext**   | Estrutura da aplicação                                      |
+| **Vite**               | Ferramentas de desenvolvimento e build                      |
+| **Electron**           | Aplicação desktop                                           |
+| **Cloudflare Workers** | Ambiente relacionado à aplicação                            |
+| **Miniflare**          | Ambiente local de desenvolvimento                           |
+| **SQLite**             | Banco de dados local                                        |
+| **Cloudflare D1**      | Integração de banco compatível com o ecossistema Cloudflare |
+| **Drizzle ORM**        | Mapeamento e operações com banco de dados                   |
+| **pnpm**               | Gerenciamento de dependências                               |
+| **Git**                | Controle de versão                                          |
+| **GitHub**             | Hospedagem do código e Releases                             |
+| **GitHub Actions**     | Automação de build e publicação                             |
 
 ---
 
-# IA no desenvolvimento
+# Inteligência Artificial no desenvolvimento
 
-Ferramentas de inteligência artificial foram utilizadas como apoio durante o desenvolvimento do projeto.
+Ferramentas de Inteligência Artificial foram utilizadas como apoio ao processo de desenvolvimento do projeto.
 
 Entre os usos estão:
 
-* programação;
+* apoio à programação;
 * análise de código;
 * documentação;
-* identificação de problemas;
+* identificação de possíveis problemas;
 * sugestões de implementação;
 * revisão de componentes;
 * organização do projeto;
-* desenvolvimento e manutenção.
+* apoio à manutenção e evolução do sistema.
 
-A utilização de IA como ferramenta de apoio não significa que todas as técnicas de inteligência artificial façam parte da aplicação.
+A utilização de ferramentas de IA não significa que o sistema possua necessariamente recursos de IA em todas as suas funcionalidades.
 
-> **Observação:** RAG não está implementado nesta versão do VolunTech.
+> **Observação:** o projeto atualmente **não possui um sistema RAG implementado**.
 
 ---
 
@@ -225,18 +255,16 @@ A utilização de IA como ferramenta de apoio não significa que todas as técni
 
 ## Requisitos
 
-Para executar o projeto em ambiente de desenvolvimento:
+Para executar o projeto em ambiente de desenvolvimento, são recomendados:
 
-```text
-Node.js >= 22.13.0
-pnpm 11.25.0
-```
+* **Node.js:** `>= 22.13.0`
+* **pnpm:** `11.25.0`
 
 ---
 
-## Instalar as dependências
+## Instalação das dependências
 
-Na raiz do projeto:
+Depois de clonar o projeto:
 
 ```bash
 pnpm install
@@ -244,13 +272,15 @@ pnpm install
 
 ---
 
-## Executar o VolunTech como aplicativo desktop
+## Executar o aplicativo Electron
+
+Para iniciar o VolunTech como aplicação desktop:
 
 ```bash
 pnpm electron
 ```
 
-Também é possível utilizar:
+Também existe o comando:
 
 ```bash
 pnpm electron:dev
@@ -258,57 +288,65 @@ pnpm electron:dev
 
 ---
 
-## Executar o servidor de desenvolvimento
+## Executar o ambiente de desenvolvimento
+
+Para iniciar o ambiente de desenvolvimento:
 
 ```bash
 pnpm dev
 ```
 
-O fluxo atual utiliza o script:
+O servidor utiliza a infraestrutura definida em:
 
 ```text
 scripts/electron-server.mjs
 ```
 
-O endpoint utilizado para comunicação de rede durante o desenvolvimento é:
+Essa configuração permite que o sistema identifique o endereço de rede local utilizado para disponibilizar determinados recursos do VolunTech.
+
+Após iniciar o servidor, a aplicação pode ser acessada localmente pela porta:
+
+```text
+5173
+```
+
+O endpoint abaixo pode ser utilizado para verificar as informações de rede:
 
 ```text
 http://localhost:5173/api/network
 ```
 
-> **Importante:** o fluxo atual de `pnpm dev` não deve ser substituído por um fluxo antigo de execução direta do framework. A versão atual contém correções relacionadas ao fluxo de QR Code e descoberta da rede.
-
 ---
 
 # Scripts disponíveis
 
-| Comando               | Função                                 |
-| --------------------- | -------------------------------------- |
-| `pnpm dev`            | Inicia o ambiente de desenvolvimento   |
-| `pnpm build`          | Gera o build da aplicação              |
-| `pnpm start`          | Inicia a aplicação em modo de produção |
-| `pnpm electron`       | Executa a aplicação Electron           |
-| `pnpm electron:dev`   | Executa o Electron em desenvolvimento  |
-| `pnpm electron:build` | Gera o build do aplicativo desktop     |
-| `pnpm lint`           | Executa as verificações de lint        |
-| `pnpm db:generate`    | Gera artefatos relacionados ao banco   |
-| `pnpm dist:win`       | Gera o instalador Windows              |
-| `pnpm dist:mac`       | Gera o instalador macOS                |
-| `pnpm dist`           | Gera os distribuíveis configurados     |
+Os principais scripts definidos no projeto incluem:
+
+| Comando               | Finalidade                                     |
+| --------------------- | ---------------------------------------------- |
+| `pnpm dev`            | Inicia o ambiente de desenvolvimento           |
+| `pnpm build`          | Gera o build da aplicação                      |
+| `pnpm start`          | Inicia a aplicação em modo de produção         |
+| `pnpm electron`       | Executa a aplicação Electron                   |
+| `pnpm electron:dev`   | Executa o Electron em desenvolvimento          |
+| `pnpm electron:build` | Gera o build relacionado ao Electron           |
+| `pnpm lint`           | Executa as verificações de lint                |
+| `pnpm db:generate`    | Gera recursos relacionados ao banco            |
+| `pnpm dist:win`       | Gera o instalador Windows                      |
+| `pnpm dist:mac`       | Gera o instalador macOS                        |
+| `pnpm dist`           | Executa o processo de distribuição configurado |
 
 ---
 
 # Estrutura do projeto
 
-A estrutura principal é semelhante a:
+A estrutura principal do projeto é organizada da seguinte forma:
 
 ```text
 VolunTech-FAM/
-
 ├── app/
 ├── components/
 │   └── voluntech/
-│
 ├── db/
 ├── drizzle/
 ├── lib/
@@ -316,10 +354,8 @@ VolunTech-FAM/
 ├── scripts/
 ├── build/
 ├── vendor/
-│
 ├── DOCUMENTACAO/
 ├── Fotos/
-│
 ├── main.js
 ├── package.json
 ├── pnpm-lock.yaml
@@ -333,73 +369,75 @@ VolunTech-FAM/
 
 # Arquitetura
 
-## Electron
+O VolunTech utiliza uma arquitetura composta por diferentes camadas.
 
-O VolunTech utiliza **Electron** para disponibilizar a aplicação como software desktop.
+## Aplicação desktop
 
-A arquitetura separa o processo da aplicação desktop do servidor interno utilizado pelo sistema.
+O **Electron** é responsável por executar o VolunTech como aplicativo desktop.
 
-O servidor interno possui seu próprio fluxo de inicialização e comunicação.
+O aplicativo desktop coordena a execução da aplicação e seus recursos locais.
 
-Além disso, o estado gravável utilizado durante a execução deve ficar fora dos arquivos empacotados da aplicação.
+## Aplicação e servidor
 
-Os arquivos da aplicação e suas dependências são tratados separadamente do estado gravável de runtime.
+A aplicação utiliza um processo separado para executar os recursos necessários do servidor local.
 
-Essa organização permite que o aplicativo instalado mantenha seus dados de execução sem depender de escrita dentro do conteúdo empacotado no ASAR.
+Essa organização permite que a aplicação desktop utilize os mesmos recursos da aplicação web enquanto mantém a experiência de uso de um aplicativo instalado.
+
+## Runtime
+
+O projeto possui uma estrutura para manter determinados arquivos de runtime fora da aplicação empacotada, evitando problemas relacionados à escrita em diretórios protegidos do aplicativo.
+
+A aplicação também considera o comportamento do pacote **ASAR** utilizado pelo Electron.
 
 ---
 
-## Banco de dados
+# Banco de dados
 
-O projeto utiliza:
+O projeto utiliza uma combinação de tecnologias relacionadas a banco de dados:
 
 * SQLite;
 * Cloudflare D1;
 * Drizzle ORM.
 
-O schema principal está localizado em:
+O schema principal encontra-se em:
 
 ```text
 db/schema.ts
 ```
 
-As migrações ficam em:
+As migrações relacionadas ao banco encontram-se em:
 
 ```text
 drizzle/
 ```
 
-O Drizzle é utilizado para representar e manipular a estrutura do banco de dados.
-
 ---
 
-## QR Code e variáveis de ambiente
+# Configuração de rede
 
-O comportamento relacionado à rede pode ser configurado por variáveis de ambiente.
+O VolunTech possui configurações relacionadas ao acesso pela rede local.
 
-Entre elas:
+Entre as variáveis utilizadas estão:
 
 ```text
 VOLUNTECH_LAN=0
-```
-
-```text
 VOLUNTECH_PUBLIC_URL=https://...
-```
-
-```text
 VOLUNTECH_PORT=5173
 ```
 
-A porta padrão utilizada pelo sistema é:
+A porta padrão utilizada pelo servidor local é:
 
 ```text
 5173
 ```
 
+Quando necessário, a aplicação pode identificar o endereço de rede local da máquina para permitir a demonstração dos recursos públicos em outros dispositivos.
+
 ---
 
-# Gerar instaladores localmente
+# Build dos instaladores
+
+Os instaladores podem ser gerados utilizando os comandos:
 
 ## Windows
 
@@ -413,143 +451,206 @@ pnpm dist:win
 pnpm dist:mac
 ```
 
-## Distribuição configurada
+## Distribuição
 
 ```bash
 pnpm dist
 ```
 
-Os arquivos gerados ficam na pasta:
+Os arquivos gerados são disponibilizados no diretório:
 
 ```text
 release/
+```
+
+Na Release `v1.0.5`, os instaladores oficiais publicados são:
+
+```text
+VolunTech-Setup-1.0.5.exe
+VolunTech-1.0.5-arm64.dmg
+VolunTech-1.0.5-x64.dmg
 ```
 
 ---
 
 # GitHub Actions
 
-O projeto possui GitHub Actions configurado para gerar os instaladores automaticamente.
-
-O workflow responsável está localizado em:
+O projeto possui um workflow de automação localizado em:
 
 ```text
 .github/workflows/build-desktop.yml
 ```
 
-Quando uma nova tag de versão é publicada, o workflow pode gerar:
+O workflow é responsável por automatizar a construção dos instaladores desktop.
+
+Atualmente são gerados:
 
 * instalador Windows;
-* instalador macOS ARM64;
-* instalador macOS Intel.
-
----
+* instalador macOS para Apple Silicon (`arm64`);
+* instalador macOS para Intel (`x64`).
 
 ## Windows
 
-O processo inclui:
+O workflow utiliza um ambiente Windows para gerar:
 
-* checkout do código;
-* configuração do pnpm;
-* configuração do Node.js;
-* instalação das dependências;
-* geração do instalador `.exe`;
-* upload do artefato;
-* publicação do instalador na Release.
-
----
+```text
+VolunTech-Setup-X.Y.Z.exe
+```
 
 ## macOS
 
-O processo utiliza duas arquiteturas:
+O workflow utiliza ambientes macOS específicos para gerar:
 
 ```text
-arm64
-x64
+VolunTech-X.Y.Z-arm64.dmg
+VolunTech-X.Y.Z-x64.dmg
 ```
 
-São utilizados runners específicos para cada arquitetura.
+## Validação dos DMGs
 
-Os arquivos `.dmg` são então enviados para a Release correspondente.
+Os builds macOS passam por uma etapa automatizada de validação.
+
+Durante essa etapa, o workflow:
+
+1. localiza o arquivo `.dmg`;
+2. monta o DMG;
+3. verifica a existência do `VolunTech.app`;
+4. verifica o identificador do aplicativo;
+5. verifica o executável principal;
+6. inspeciona a assinatura do aplicativo;
+7. confirma a condição esperada para a assinatura acadêmica;
+8. finaliza a validação do build.
+
+A versão `v1.0.5` utiliza assinatura **ad-hoc** no aplicativo macOS.
+
+Essa assinatura não é uma assinatura oficial de desenvolvedor Apple e não representa notarização pela Apple.
 
 ---
 
 # Publicação de uma Release
 
-O processo de publicação utiliza tags do Git.
+O processo de publicação utiliza **tags do Git**.
 
-Exemplo:
+Uma nova versão pode ser criada seguindo o padrão:
 
 ```bash
-git tag v1.0.3
-git push origin v1.0.3
+git tag vX.Y.Z
+git push origin vX.Y.Z
 ```
 
-A tag inicia o workflow de construção dos instaladores.
-
-A versão `v1.0.3` já foi publicada neste projeto e possui os instaladores gerados pelo GitHub Actions.
-
-### Instalações publicadas na v1.0.3
+Quando uma tag no formato:
 
 ```text
-VolunTech-Setup-1.0.3.exe
-VolunTech-1.0.3-arm64.dmg
-VolunTech-1.0.3-x64.dmg
+v*
 ```
+
+é publicada no GitHub, o workflow:
+
+```text
+Build desktop installers
+```
+
+é iniciado automaticamente.
+
+O workflow então:
+
+1. instala as dependências;
+2. gera o instalador Windows;
+3. gera os instaladores macOS;
+4. valida os DMGs;
+5. publica os artefatos;
+6. cria ou atualiza a GitHub Release correspondente;
+7. disponibiliza os instaladores para download.
 
 ---
 
-# Executar o workflow manualmente
+## Release v1.0.5
 
-O workflow também pode ser executado manualmente pelo GitHub Actions.
+A versão `v1.0.5` é a versão atual do VolunTech.
 
-No GitHub:
+Os instaladores publicados são:
 
 ```text
-Actions
-→ Build desktop installers
-→ Run workflow
+VolunTech-Setup-1.0.5.exe
+VolunTech-1.0.5-arm64.dmg
+VolunTech-1.0.5-x64.dmg
 ```
 
-Isso permite iniciar uma compilação manual sem necessariamente criar uma nova versão.
+A Release oficial está disponível em:
+
+https://github.com/bruno-dsn/VolunTech-FAM/releases/tag/v1.0.5
+
+Os arquivos publicados também possuem hashes **SHA-256** disponibilizados pelo GitHub para verificação de integridade.
 
 ---
 
-# Verificação
+# Execução manual do workflow
 
-Depois de realizar alterações no projeto, alguns comandos úteis são:
+Também é possível executar o workflow manualmente pelo GitHub.
 
-### Verificar o estado do repositório
+No repositório:
+
+1. acesse **Actions**;
+2. selecione **Build desktop installers**;
+3. selecione **Run workflow**;
+4. escolha a branch desejada;
+5. execute o workflow.
+
+A execução manual é útil para testes do processo de build.
+
+A publicação automática de uma Release está associada às execuções iniciadas por tags no formato `v*`.
+
+---
+
+# Diagnóstico e validação do macOS
+
+O projeto possui scripts específicos para auxiliar na análise do processo de build macOS.
+
+Entre eles:
+
+```text
+scripts/adhoc-sign.cjs
+scripts/diagnose-macos-build.sh
+scripts/validate-macos-build.sh
+```
+
+Esses scripts fazem parte da infraestrutura criada para auxiliar a construção, assinatura ad-hoc, diagnóstico e validação dos aplicativos macOS.
+
+---
+
+# Verificação antes de publicar alterações
+
+Antes de realizar commits ou publicar uma nova versão, alguns comandos úteis são:
 
 ```bash
 git status
 ```
 
-### Verificar alterações
+Para verificar as alterações:
 
 ```bash
 git diff
 ```
 
-### Verificar problemas de whitespace
+Para verificar problemas de espaços ou formatação:
 
 ```bash
 git diff --check
 ```
 
-### Verificar commits
+Para visualizar o histórico:
 
 ```bash
 git log --oneline
 ```
 
-### Verificar tags
+Para visualizar as tags:
 
 ```bash
 git tag
 ```
 
-### Verificar a versão do projeto
+Para verificar a versão definida no projeto:
 
 ```bash
 cat package.json
@@ -559,92 +660,114 @@ cat package.json
 
 # Histórico de versões
 
-## v1.0.3
+## v1.0.5
 
-Versão atual.
+**Versão atual do VolunTech.**
 
 Inclui:
 
-* atualização da versão do aplicativo;
-* instalador Windows;
-* instalador macOS ARM64;
-* instalador macOS Intel;
-* publicação automatizada através do GitHub Actions;
-* atualização da documentação;
-* README atualizado;
-* organização das telas e documentação do projeto.
+* assinatura ad-hoc do aplicativo macOS;
+* instalador macOS incluído no DMG;
+* geração de instaladores para macOS Apple Silicon e Intel;
+* validação automatizada dos DMGs;
+* diagnóstico e validação do processo de build macOS;
+* publicação automatizada dos instaladores através do GitHub Actions;
+* instalador Windows atualizado;
+* Release oficial publicada no GitHub.
+
+---
+
+## v1.0.3
+
+Versão que consolidou melhorias na aplicação desktop, documentação, apresentação do projeto e distribuição dos instaladores.
+
+Incluiu atualizações no README, organização das imagens do projeto e melhorias relacionadas ao processo de distribuição.
 
 ---
 
 ## v1.0.2
 
-Versão que recebeu correções importantes relacionadas ao funcionamento do QR Code e à descoberta da rede local.
+Release que trouxe correções relacionadas aos QR Codes e à identificação do endereço de rede utilizado durante o desenvolvimento.
 
-Também houve ajustes no fluxo de desenvolvimento e execução da aplicação.
+Entre os ajustes estavam:
+
+* correção dos caminhos dos QR Codes;
+* melhoria da descoberta do endereço de rede local;
+* atualização do servidor de desenvolvimento;
+* ajustes no fluxo de execução do aplicativo desktop.
 
 ---
 
 ## v1.0.1
 
-Versão anterior utilizada durante o desenvolvimento acadêmico do projeto.
+Release relacionada a correções no processo de publicação dos instaladores desktop.
 
 ---
 
 ## v1.0.0
 
-Primeira versão principal do VolunTech.
+Primeira versão do projeto VolunTech-FAM.
 
 ---
 
 # Arquivos importantes
 
-| Arquivo / Pasta      | Função                             |
-| -------------------- | ---------------------------------- |
-| `README.md`          | Documentação principal             |
-| `package.json`       | Scripts, dependências e versão     |
-| `pnpm-lock.yaml`     | Lockfile das dependências          |
-| `main.js`            | Entrada principal do Electron      |
-| `db/schema.ts`       | Schema do banco                    |
-| `drizzle/`           | Migrações do banco                 |
-| `scripts/`           | Scripts auxiliares                 |
-| `DOCUMENTACAO/`      | Documentação técnica e acadêmica   |
-| `Fotos/`             | Imagens utilizadas na documentação |
-| `.github/workflows/` | Automação do GitHub Actions        |
-| `vite.config.ts`     | Configuração do Vite               |
-| `drizzle.config.ts`  | Configuração do Drizzle            |
-| `CHANGELOG.md`       | Histórico de alterações            |
+| Arquivo / Diretório | Finalidade                                       |
+| ------------------- | ------------------------------------------------ |
+| `app/`              | Estrutura principal da aplicação                 |
+| `components/`       | Componentes da interface                         |
+| `db/`               | Schema e recursos relacionados ao banco          |
+| `drizzle/`          | Migrações do banco                               |
+| `lib/`              | Bibliotecas e recursos auxiliares                |
+| `public/`           | Arquivos públicos                                |
+| `scripts/`          | Scripts de desenvolvimento, build e validação    |
+| `build/`            | Recursos relacionados ao empacotamento           |
+| `vendor/`           | Dependências ou recursos incorporados ao projeto |
+| `DOCUMENTACAO/`     | Documentação acadêmica                           |
+| `Fotos/`            | Imagens utilizadas no README                     |
+| `main.js`           | Processo principal do Electron                   |
+| `package.json`      | Configuração do projeto e scripts                |
+| `pnpm-lock.yaml`    | Lockfile das dependências                        |
+| `vite.config.ts`    | Configuração do Vite                             |
+| `drizzle.config.ts` | Configuração do Drizzle                          |
+| `CHANGELOG.md`      | Histórico detalhado de alterações                |
+| `README.md`         | Documentação principal do projeto                |
 
 ---
 
 # Limites da demonstração
 
-O VolunTech foi desenvolvido como projeto acadêmico e demonstrativo.
+O VolunTech foi desenvolvido para fins **acadêmicos e demonstrativos**.
 
 Portanto:
 
-* os dados são fictícios;
-* o sistema não deve receber dados reais de pacientes;
-* não deve ser utilizado como sistema hospitalar;
-* não deve ser utilizado como sistema de produção sem uma avaliação completa de segurança;
-* os recursos de rede são destinados à demonstração;
-* a senha de demonstração é pública;
-* recursos de autenticação, segurança, infraestrutura, auditoria e proteção de dados não devem ser considerados equivalentes aos de um sistema corporativo de produção.
+* os dados utilizados são fictícios;
+* o sistema não deve ser utilizado para dados reais de pacientes;
+* o sistema não deve ser utilizado para informações hospitalares reais;
+* não devem ser inseridos dados pessoais sensíveis;
+* as credenciais apresentadas neste README são apenas de demonstração;
+* os recursos de rede local não foram projetados como infraestrutura de produção;
+* os recursos públicos acessíveis por QR Code são destinados à demonstração;
+* a aplicação não deve ser considerada um sistema hospitalar ou de gestão clínica;
+* o projeto não possui RAG implementado atualmente.
+
+A finalidade principal do VolunTech é demonstrar conhecimentos de desenvolvimento de software, banco de dados, arquitetura de aplicações, aplicações desktop, integração web, automação de builds e organização de um projeto acadêmico.
 
 ---
 
-# Links
+# Repositório
 
-### Repositório
+Código-fonte:
 
-**https://github.com/bruno-dsn/VolunTech-FAM**
+https://github.com/bruno-dsn/VolunTech-FAM
 
-### Releases
+Releases:
 
-**https://github.com/bruno-dsn/VolunTech-FAM/releases**
+https://github.com/bruno-dsn/VolunTech-FAM/releases
 
-### Release atual — v1.0.3
+Release atual:
 
-**https://github.com/bruno-dsn/VolunTech-FAM/releases/tag/v1.0.3**
+https://github.com/bruno-dsn/VolunTech-FAM/releases/tag/v1.0.5
 
 ---
 
@@ -652,4 +775,4 @@ Portanto:
 
 **Projeto acadêmico — FAM**
 
-Desenvolvido para fins educacionais, demonstrativos e de aprendizado.
+Versão atual: **v1.0.5**
