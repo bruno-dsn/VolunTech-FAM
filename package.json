@@ -1,6 +1,6 @@
 {
   "name": "voluntech-fam",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "VolunTech: sistema acadêmico de gestão de voluntariado (projeto FAM).",
   "author": "Equipe VolunTech · FAM",
   "private": true,
@@ -125,7 +125,30 @@
       ],
       "category": "public.app-category.education",
       "artifactName": "VolunTech-${version}-${arch}.${ext}",
-      "icon": "build/icon.png"
+      "icon": "build/icon.png",
+      "identity": null
+    },
+    "dmg": {
+      "contents": [
+        {
+          "x": 130,
+          "y": 220,
+          "type": "file",
+          "name": "VolunTech.app"
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        },
+        {
+          "x": 270,
+          "y": 340,
+          "type": "file",
+          "path": "dmg-assets/Instalar VolunTech.command"
+        }
+      ]
     },
     "linux": {
       "target": [
@@ -134,6 +157,7 @@
       "category": "Education",
       "artifactName": "VolunTech-${version}-${arch}.${ext}"
     },
-    "icon": "build/icon.png"
+    "icon": "build/icon.png",
+    "afterPack": "./scripts/adhoc-sign.cjs"
   }
 }
