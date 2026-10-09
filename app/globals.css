@@ -374,3 +374,39 @@ th { background: #f8f1f5; color: #683d53; font-size: .76rem; }
 .share-qr > svg { display: block; width: 100%; height: 100%; }
 .qr-card .share-qr { display: block; width: 150px; height: 150px; margin: 4px auto 14px; box-shadow: 0 0 0 1px #e4d4dd; }
 .gesture-preview .share-qr { width: 86px; height: 86px; }
+
+
+/* Revisão do portfólio: leitura, teclado e pequenas telas. */
+:root { --muted: #6e5361; --page: #f6f5f8; --line: #e4dfe8; }
+.sidebar { background: #35182e; }
+.brand small, .sidebar-bottom { color: #d7bfd0; }
+.nav-heading { color: #c5a7bc; margin-top: 35px; }
+.nav-item { color: #e0d1dc; border-radius: 8px; }
+.nav-item.active { background: #672445; }
+.topbar { min-height: 68px; }
+.card, .stat-card { box-shadow: 0 3px 14px rgb(43 22 42 / 3%); border-color: #e4dfe8; }
+.main { max-width: 1460px; }
+.page-heading h1 { font-size: clamp(1.65rem, 2.3vw, 2.2rem); letter-spacing: -.035em; }
+.welcome-page { background: #f6f5f8; }
+.welcome-header { border-bottom: 1px solid #e4dfe8; }
+.welcome-intro h1 { font-size: clamp(2.2rem, 3.8vw, 3.8rem); line-height: 1.13; }
+.welcome-intro > p:not(.eyebrow) { color: #695365; max-width: 590px; }
+.login-card { border-top: 3px solid #c8186c; }
+.demo-fill { width: 100%; margin: 0 0 14px; background: #faf5f8; border: 1px solid #ddc2d1; color: #79234d; }
+.welcome-main { align-items: start; }
+.person-row:hover { background: #faf7f9; }
+.person-main small { color: #725d68; }
+.button { border-radius: 8px; }
+a:focus-visible, textarea:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 3px solid #a91156; outline-offset: 3px; }
+@media (max-width: 700px) {
+  .main { padding: 24px 16px 48px; }
+  .topbar { padding-left: 16px; padding-right: 16px; }
+  .page-heading { align-items: start; flex-wrap: wrap; }
+  .page-heading .button { width: 100%; }
+  .person-row { padding: 14px; gap: 10px; }
+  .person-meta { min-width: 82px; }
+  .welcome-intro h1 { font-size: 2.1rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}

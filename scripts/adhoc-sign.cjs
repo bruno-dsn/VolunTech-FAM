@@ -51,7 +51,7 @@ function signMachO(filePath, exec = run) {
   exec("codesign", ["--force", "--sign", "-", filePath], { stdio: "inherit" });
 }
 
-function collectMachOFiles(root, exec = run) {
+function collectMachOFiles(root) {
   if (!fs.existsSync(root)) return [];
   const found = [];
   const stack = [root];
@@ -73,7 +73,7 @@ function collectMachOFiles(root, exec = run) {
 
 function signUnpackedMachO(appPath, exec = run) {
   const unpackedRoot = path.join(appPath, "Contents", "Resources", "app.asar.unpacked");
-  const machOFiles = collectMachOFiles(unpackedRoot, exec);
+  const machOFiles = collectMachOFiles(unpackedRoot);
   console.log(`[adhoc-sign] Mach-O encontrados em app.asar.unpacked: ${machOFiles.length}`);
 
   for (const filePath of machOFiles) {
